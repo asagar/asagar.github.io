@@ -1,5 +1,5 @@
 {% include head.html %}
-{% if page.image %}<img src="{{page.image}}" alt="">{% else %}Nope,on image.{% endif %}
-<h1>blog post: {{page.tile}}</h1>
-{{content}}
+{% if page.image %}<img src="{{ page.image }}" alt="">{% else %}Nope,on image.{% endif %}
+<h1>blog post: {{ page.tile }}</h1>
+{{ content }}
 {% include footer.html %}
