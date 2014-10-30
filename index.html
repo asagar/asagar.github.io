@@ -7,12 +7,12 @@ layout:default
 
 <h1>{{ site.title }}</h1>
 <h2>{{ page.title }}</h2>
-<p>my favorite color is {{page.color}}.my email is {{site.email}}.a little me: {{site.description}}.</p>
+<p>my favorite color is {{ page.color }}.my email is {{ site.email }}.a little me: {{ site.description }}.</p>
 
 <ul>
-{%for post in site.post%}
+{% for post in site.post %}
   <li>
-    <a href="{{post.url}}"></a>
+    <a href="{{ post.url }}"></a>
   </li>
-  {%endfor%}
+  {% endfor %}
 </ul>
