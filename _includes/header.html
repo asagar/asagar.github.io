@@ -1,0 +1,14 @@
+<nav class="site-nav">
+<div class="container">
+<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<ul class="navbar">
+<li><a href="/notes/"{% if page.title == 'Class Notes' %} class="active"{% endif %}>Class Notes</a></li>
+<li><a href="/term-project/"{% if page.title == 'Term Project' %} class="active"{% endif %}>Term Project</a></li>
+<li><a href="/resources/"{% if page.title == 'Resources' %} class="active"{% endif %}>Resources</a></li>
+<li><a href="http://gradebook.iinf362.com/">Gradebook</a></li>
+<li><a href="/syllabus/"{% if page.title == 'Syllabus' %} class="active"{% endif %}>Syllabus</a></li>
+<li><a href="http://github.com/iinf362"><i class="fa fa-github" title="IINF 362 Github"></i></a></li>
+<li><a href="https://www.google.com/calendar/embed?src=m9s8gc0v22ppj0uhts6o98gktc%40group.calendar.google.com&ctz=America/New_York"><i class="fa fa-calendar" title="class schedule"></i></a></li>
+</ul>
+</div>
+</nav>
